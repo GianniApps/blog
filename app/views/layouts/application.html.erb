@@ -1,9 +1,12 @@
-<!DOCTYPE html> <html> <head> <title>Blog</title>
-   <%= stylesheet_link_tag    'application', media: 'all' %>
-
-  # <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-
-  <%= csrf_meta_tags %>
-</head>
-<body>
- <%= yield %> </body> </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog</title>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <p>Welcome go Gianfranco's Blog!</p>
+    <%= yield %>
+  </body>
+</html>
